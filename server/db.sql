@@ -69,4 +69,8 @@ CREATE TABLE history(
 
 INSERT INTO products
 (title, cn_title, subtitle, cn_subtitle, price, stock, unit, cn_unit, delivery, img)
-VALUES ('Nike air max', 'Nike air max (cn)', 'Size 11 men', 'Size 11 men (cn)', 149.99, 11, 'Pair', 'Pair (cn)', 'Richmond Hill, ON', 'nikeairmax.jpg');
+VALUES ('Nike air force', 'Nike air force', 'Size 11 men', 'Size 11 men', 149.99, 11, 'Pair', 'Pair (cn)', 'Richmond Hill, ON', 'nikeairmax.jpg');
+
+INSERT INTO products
+(title, cn_title, subtitle, cn_subtitle, price, stock, unit, cn_unit, delivery, img)
+VALUES ('Blanket', 'Blanket', '', '', 3.99, 20, 'Sheet', 'Sheet', 'Richmond Hill, ON', 'blanket.png');
